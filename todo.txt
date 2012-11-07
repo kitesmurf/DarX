@@ -1,0 +1,90 @@
+Todo:
+- Netzwerk 501 mit DartPro
+    - Eventuell Spielfenster erst nach erfolgreicher Verbindung anzeigen und das Verbindungsfenster in das Hauptfenster verlegen.
+    - DarX als Server
+
+- Spiel stoppen beim Spielwechsel und neustarten
+- Hilfe anpassen
+- Stats 2 Player x01 (pro Spieler eigene, evtl über Menu abrufbar in eigenem Fenster)
+- Stats Cricket
+- Sätze Cricket
+- Stats
+    - Gesamter Average etc pp
+- Anzeige vergrößern
+    
+
+
+Done (release 0.18)
+- Crash bei Scrollbars hidden gelöscht
+- Erste rudimentäre Testversion des Servers
+
+
+Done (release 0.17):
+- Bug bei den Stats
+
+Done (release 0.16):
+- Bug mit startScore behoben
+- Cricket 2 Player Buttons angepasst
+- 501 vs. me
+    - Spiele zu Stats hinzufügen
+
+Done (release 0.15):
+- x01 vs. me
+
+
+Done (release 0.14):
+- Netzwerk 501 mit DartPro
+    - Spielerwechsel noch nicht in Ordnung (Spieler R (remote) fängt an, L (lokal) gewinnt; L fängt an, R gewinnt -> beide beginnen das 3. Leg)
+    - Nur ein Fenster zur Zeit öffnen. Wenn Fenster geöffnet, andere Buttons deaktivieren
+    - Fenster zum Auswählen, ob Server oder Client
+    - Sätze werden abwechselnd begonnen
+    - Wenn Verbindung steht, neue Verbindung unmöglich machen
+    - Chat
+    - Server disconnected Fenster
+    - DarX als Client
+    - Anzeigen, welche Optionen gesetzt werden beim Spielen
+    - Chatfenster für Statusnachrichten nutzen
+    - Fenster richtig anordnen
+    - Keine Verbindung herstellen, wenn schon angemeldet
+    - Fenster für Verbindung nach vorne bringen (siehe NSWindow)
+    - IP auf Gültigkeit überprüfen
+    - Fenster für Server beschäftigt
+    - Fenster Disconnected Zentrieren
+    - Timeout bei der Verbindung / Überprüfen auf Verbindung
+    - Verbindungsfenster beim Spielwechsel ausblenden
+    - Chat sendet Punkte, wenn Spieler an der Reihe
+    - Chatfenster scrollt nicht mit
+- Spielernamen an WinPanel übergeben
+- richtiges Durchtabben bei allen Spielen
+
+Done (release 0.13)
+- PrefWindow anständig beschriften
+- Mit Tab durch die Einstellungen durchgehen
+- Bug bei x01 2 Spieler (Spieler fangen nicht richtig an und Problem mit Sätzen und Legs)
+
+Done (release 0.12):
+- Berechnen bei Shootout berichtigt
+
+Done (release 0.11):
+- In Tabellen automatisch nach unten scrollen
+- Scrollbar anzeigen
+- Sätze mit einbauen (auch bei 2 Spieler x01)
+- Speichern der Einstellungen in CoreData oder NSUserDefaults
+- Shoot Out (Werfen bis zum Umfallen mit Scores und so)
+- Bug behoben beim Neustart von 2 Spieler x01
+
+Done (release 0.10):
+- Bug beim wegspeichern behoben
+- Speichern des Spielernamens in der Liste mit CoreData
+
+Done (release 0.9):
+
+- revert (Taste R)
+- Checkoutcalculator
+- Spielerwechsel bei Cricket (Taste Enter)
+- Bug bei Cricket 1 Player behoben
+- Hilfe erstellen (Tastenbeschreibung Cricket)
+- Spielernamen änderbar
+- Letzten Wurf bei Cricket anzeigen
+- Bug berechnen Avescore3
+- nextKeyView in den Einstellungen setzen

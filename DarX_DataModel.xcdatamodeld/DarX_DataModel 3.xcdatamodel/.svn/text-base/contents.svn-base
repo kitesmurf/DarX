@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11B26" minimumToolsVersion="Automatic" macOSVersion="Automatic">
+    <entity name="ShoutStats" representedClassName="NSManagedObject">
+        <attribute name="aveScore" optional="YES" attributeType="Float" defaultValueString="0"/>
+        <attribute name="aveScore3" optional="YES" attributeType="Float" defaultValueString="0"/>
+        <attribute name="date" optional="YES" attributeType="Date"/>
+        <attribute name="hs60" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="hs100" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="hs140" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="hs180" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="numThrows" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="playerName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Stats" representedClassName="NSManagedObject">
+        <attribute name="aveScore" attributeType="Float" defaultValueString="0"/>
+        <attribute name="aveScore3" attributeType="Float" defaultValueString="0"/>
+        <attribute name="date" attributeType="Date"/>
+        <attribute name="gameType" optional="YES" attributeType="Integer 16" defaultValueString="501"/>
+        <attribute name="hs60" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="hs100" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="hs140" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="hs180" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="numThrows" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="playerName" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="ShoutStats" positionX="0" positionY="0" width="128" height="180"/>
+        <element name="Stats" positionX="0" positionY="0" width="128" height="195"/>
+    </elements>
+</model>

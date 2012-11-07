@@ -1,0 +1,12 @@
+		<item>
+			<title>Version 0.4</title>
+			<sparkle:releaseNotesLink>http://stubbi.org/</sparkle:releaseNotesLink>
+			<pubDate>Wed, 13 Oct 2010 22:27:39 +0200</pubDate>
+			<enclosure
+				url="http://www.example.com/download//Darx-0.4.dmg"
+				sparkle:version="0.4"
+				type="application/octet-stream"
+				length="1105942"
+				sparkle:dsaSignature="MC0CFQCk4WHYLY3JyS5CzQ5mSuK7z+xpBAIUP/jTDwR29Bu5KHF85vWCdmW3OfM="
+			/>
+		</item>

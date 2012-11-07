@@ -1,0 +1,4 @@
+download_bas_url: 'http://stubbi.org/wp-content/uploads/downloads/2010/10/'
+appcast_basefolder: '/Users/lupus/xcode/DarX/'
+appcast_xml_name: 'appcast.xml'
+keychain_privkey_name: 'Sparkle Private Key 1'

@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9EB159D5126643E500525AA9 /* Deployment */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9EB159E01266440600525AA9 /* Build configuration list for PBXAggregateTarget "Deployment" */;
+			buildPhases = (
+				9EB159DB126643F000525AA9 /* ShellScript */,
+			);
+			dependencies = (
+				9EB159D9126643EB00525AA9 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			productName = Deployment;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		77C8280E06725ACE000B614F /* DarX_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* DarX_AppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9E028C16132D27B400E53560 /* CheckOutCalc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E028C15132D27B400E53560 /* CheckOutCalc.xib */; };
+		9E04223913228F4500CD033C /* x012.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E04223813228F4500CD033C /* x012.xib */; };
+		9E0BC90E13217AC8006C6A26 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0BC90D13217AC8006C6A26 /* Preferences.xib */; };
+		9E0BC9FD13224F18006C6A26 /* ManagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0BC9FC13224F18006C6A26 /* ManagingViewController.m */; };
+		9E0BCA091322511B006C6A26 /* x011.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0BCA081322511B006C6A26 /* x011.xib */; };
+		9E0E76461348678D005BEA4D /* ShootStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0E76451348678D005BEA4D /* ShootStats.m */; };
+		9E11C35B1348CD2100A79877 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E11C35A1348CD2100A79877 /* Network.m */; };
+		9E1D652A13576F3B00F4D466 /* ServerClientDecide.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D652913576F3A00F4D466 /* ServerClientDecide.m */; };
+		9E30A2271326B600009FE244 /* cricket1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E30A2261326B600009FE244 /* cricket1.xib */; };
+		9E30A22A1326BF68009FE244 /* Cricket1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E30A2291326BF68009FE244 /* Cricket1.m */; };
+		9E312CC5132A84FD0064B93E /* cricket2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E312CC4132A84FD0064B93E /* cricket2.xib */; };
+		9E38AAC31353807700FC904F /* SetGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E38AAC21353807700FC904F /* SetGame.m */; };
+		9E3908211262242C00407652 /* Stats.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3908201262242C00407652 /* Stats.m */; };
+		9E5B8C74133148990050BF44 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = 9E5B8C73133148990050BF44 /* Help */; };
+		9E5D5A831264EDE000FBFD33 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5D5A821264EDE000FBFD33 /* Sparkle.framework */; };
+		9E7ADAFD1264F31A0072C533 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E5D5A821264EDE000FBFD33 /* Sparkle.framework */; };
+		9E7ADB041264F3DC0072C533 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 9E7ADB031264F3DC0072C533 /* dsa_pub.pem */; };
+		9E7ADB171264F6930072C533 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9E7ADB161264F6930072C533 /* Credits.rtf */; };
+		9E7ADB211264FB140072C533 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7ADB201264FB140072C533 /* PreferenceController.m */; };
+		9E7B34C6132EC3B100C3468C /* todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9E7B34C5132EC3B100C3468C /* todo.txt */; };
+		9E890E571324258E00DA24F9 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E890E561324258E00DA24F9 /* Global.m */; };
+		9E98DBB814277F5D00D54966 /* x01vsme.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E98DBB714277F5D00D54966 /* x01vsme.m */; };
+		9E98DBBA1427808600D54966 /* x01vsme.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E98DBB91427808600D54966 /* x01vsme.xib */; };
+		9EA157881334FE05008D4F58 /* XPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA157871334FE05008D4F58 /* XPlayer.m */; };
+		9EA4445F12609DD900E6DB39 /* x011.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA4445612609DD900E6DB39 /* x011.m */; };
+		9EA4446112609DD900E6DB39 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA4445A12609DD900E6DB39 /* Player.m */; };
+		9EA4446212609DD900E6DB39 /* WinPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA4445C12609DD900E6DB39 /* WinPane.m */; };
+		9EA4446312609DD900E6DB39 /* CheckOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA4445E12609DD900E6DB39 /* CheckOut.m */; };
+		9EA4448712609F4600E6DB39 /* dart.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9EA4448612609F4600E6DB39 /* dart.icns */; };
+		9EA444CF1260A30100E6DB39 /* WinPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EA444CE1260A30100E6DB39 /* WinPane.xib */; };
+		9EA65A4413282098001DB254 /* WinCricket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA65A4313282097001DB254 /* WinCricket.m */; };
+		9EA65A481328268C001DB254 /* WinCricket.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EA65A471328268C001DB254 /* WinCricket.xib */; };
+		9EAD694F135087B500CAEB44 /* Connect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD694E135087B500CAEB44 /* Connect.m */; };
+		9EB1B5E6132BD22B00B82007 /* WinGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB1B5E5132BD22B00B82007 /* WinGame.m */; };
+		9EB1B5E8132BD38100B82007 /* WinGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB1B5E7132BD38100B82007 /* WinGame.xib */; };
+		9EB27C08148E734100AFA612 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB27C07148E734100AFA612 /* Server.m */; };
+		9EB27C0B148E735D00AFA612 /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB27C0A148E735D00AFA612 /* TCPServer.m */; };
+		9EB3C64A136C0DE000D498E5 /* Nx012.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5D657134FB868001A9D41 /* Nx012.xib */; };
+		9EB3C64B136C0DE000D498E5 /* Busy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFC813D1358E23E00CC61F1 /* Busy.xib */; };
+		9EB3C64C136C0DE000D498E5 /* ConnErr.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6CB67135CC2DD007134EC /* ConnErr.xib */; };
+		9EB3C64D136C0DE000D498E5 /* Connect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD695013508FCB00CAEB44 /* Connect.xib */; };
+		9EB3C64E136C0DE000D498E5 /* ServerClientDecide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E1D652B13576F6700F4D466 /* ServerClientDecide.xib */; };
+		9EB3C64F136C0DE000D498E5 /* ServerDisconnect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EE058AE1353921D0061D1F5 /* ServerDisconnect.xib */; };
+		9EB3C650136C0DE000D498E5 /* SetGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E38AAC4135381E000FC904F /* SetGame.xib */; };
+		9EB6CB66135CC292007134EC /* ConnErr.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6CB65135CC292007134EC /* ConnErr.m */; };
+		9EBA7A7A13787C6800A45E72 /* NetWinPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E19D96613787AD6008475D5 /* NetWinPane.xib */; };
+		9EBA7A7B13787C7700A45E72 /* NetWinPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E19D96513787AD6008475D5 /* NetWinPane.m */; };
+		9EC5D658134FB868001A9D41 /* Nx012.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5D656134FB868001A9D41 /* Nx012.m */; };
+		9EC8371B1334FEFC0092C273 /* CPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC8371A1334FEFC0092C273 /* CPlayer.m */; };
+		9ECB9302132B823C0051EE46 /* Cricket2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB9301132B823C0051EE46 /* Cricket2.m */; };
+		9ED1EF1E132D26EA00699F05 /* CheckOutCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1EF1D132D26EA00699F05 /* CheckOutCalc.m */; };
+		9EDFD83C1347B86300D9CC5B /* Shootout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDFD83B1347B86300D9CC5B /* Shootout.m */; };
+		9EDFD83E1347B8CD00D9CC5B /* Shootout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EDFD83D1347B8CD00D9CC5B /* Shootout.xib */; };
+		9EE02D3F1346536B001E2A81 /* DarX_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9EE02D3D1346536B001E2A81 /* DarX_DataModel.xcdatamodeld */; };
+		9EE058B2135395320061D1F5 /* ServerDisconnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE058B1135395320061D1F5 /* ServerDisconnect.m */; };
+		9EE2A64113226442003F9549 /* x012.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE2A64013226442003F9549 /* x012.m */; };
+		9EFC813A1358E1DF00CC61F1 /* Busy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC81391358E1DF00CC61F1 /* Busy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EB159D8126643EB00525AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = DarX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E7ADB021264F31C0072C533 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9E7ADAFD1264F31A0072C533 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* DarX_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarX_Prefix.pch; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77C8280B06725ACE000B614F /* DarX_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarX_AppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* DarX_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarX_AppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* DarX-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "DarX-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* DarX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E028C15132D27B400E53560 /* CheckOutCalc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckOutCalc.xib; sourceTree = "<group>"; };
+		9E04223813228F4500CD033C /* x012.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = x012.xib; sourceTree = "<group>"; };
+		9E0BC90D13217AC8006C6A26 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		9E0BC9FB13224F18006C6A26 /* ManagingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagingViewController.h; sourceTree = "<group>"; };
+		9E0BC9FC13224F18006C6A26 /* ManagingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagingViewController.m; sourceTree = "<group>"; };
+		9E0BCA081322511B006C6A26 /* x011.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = x011.xib; sourceTree = "<group>"; };
+		9E0E76441348678D005BEA4D /* ShootStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShootStats.h; sourceTree = "<group>"; };
+		9E0E76451348678D005BEA4D /* ShootStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShootStats.m; sourceTree = "<group>"; };
+		9E11C3591348CD2100A79877 /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		9E11C35A1348CD2100A79877 /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
+		9E19D96413787AD6008475D5 /* NetWinPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWinPane.h; sourceTree = "<group>"; };
+		9E19D96513787AD6008475D5 /* NetWinPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWinPane.m; sourceTree = "<group>"; };
+		9E19D96613787AD6008475D5 /* NetWinPane.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetWinPane.xib; sourceTree = "<group>"; };
+		9E1D652813576F3900F4D466 /* ServerClientDecide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerClientDecide.h; sourceTree = "<group>"; };
+		9E1D652913576F3A00F4D466 /* ServerClientDecide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerClientDecide.m; sourceTree = "<group>"; };
+		9E1D652B13576F6700F4D466 /* ServerClientDecide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServerClientDecide.xib; sourceTree = "<group>"; };
+		9E30A2261326B600009FE244 /* cricket1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cricket1.xib; sourceTree = "<group>"; };
+		9E30A2281326BF68009FE244 /* Cricket1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cricket1.h; sourceTree = "<group>"; };
+		9E30A2291326BF68009FE244 /* Cricket1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cricket1.m; sourceTree = "<group>"; };
+		9E312CC4132A84FD0064B93E /* cricket2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cricket2.xib; sourceTree = "<group>"; };
+		9E38AAC11353807700FC904F /* SetGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGame.h; sourceTree = "<group>"; };
+		9E38AAC21353807700FC904F /* SetGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGame.m; sourceTree = "<group>"; };
+		9E38AAC4135381E000FC904F /* SetGame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetGame.xib; sourceTree = "<group>"; };
+		9E39081F1262242C00407652 /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stats.h; sourceTree = "<group>"; };
+		9E3908201262242C00407652 /* Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stats.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		9E5B8C73133148990050BF44 /* Help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Help; sourceTree = "<group>"; };
+		9E5D5A821264EDE000FBFD33 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		9E7ADB031264F3DC0072C533 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		9E7ADB161264F6930072C533 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		9E7ADB1F1264FB140072C533 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
+		9E7ADB201264FB140072C533 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
+		9E7B34C5132EC3B100C3468C /* todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = todo.txt; sourceTree = "<group>"; };
+		9E890E551324258E00DA24F9 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		9E890E561324258E00DA24F9 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		9E98DBB614277F5D00D54966 /* x01vsme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x01vsme.h; sourceTree = "<group>"; };
+		9E98DBB714277F5D00D54966 /* x01vsme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x01vsme.m; sourceTree = "<group>"; };
+		9E98DBB91427808600D54966 /* x01vsme.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = x01vsme.xib; sourceTree = "<group>"; };
+		9EA157861334FE05008D4F58 /* XPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPlayer.h; sourceTree = "<group>"; };
+		9EA157871334FE05008D4F58 /* XPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPlayer.m; sourceTree = "<group>"; };
+		9EA4445512609DD900E6DB39 /* x011.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x011.h; sourceTree = "<group>"; };
+		9EA4445612609DD900E6DB39 /* x011.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x011.m; sourceTree = "<group>"; };
+		9EA4445912609DD900E6DB39 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		9EA4445A12609DD900E6DB39 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		9EA4445B12609DD900E6DB39 /* WinPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinPane.h; sourceTree = "<group>"; };
+		9EA4445C12609DD900E6DB39 /* WinPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinPane.m; sourceTree = "<group>"; };
+		9EA4445D12609DD900E6DB39 /* CheckOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckOut.h; sourceTree = "<group>"; };
+		9EA4445E12609DD900E6DB39 /* CheckOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckOut.m; sourceTree = "<group>"; };
+		9EA4448612609F4600E6DB39 /* dart.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = dart.icns; sourceTree = "<group>"; };
+		9EA444CE1260A30100E6DB39 /* WinPane.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WinPane.xib; sourceTree = "<group>"; };
+		9EA65A4213282097001DB254 /* WinCricket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinCricket.h; sourceTree = "<group>"; };
+		9EA65A4313282097001DB254 /* WinCricket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinCricket.m; sourceTree = "<group>"; };
+		9EA65A471328268C001DB254 /* WinCricket.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinCricket.xib; sourceTree = "<group>"; };
+		9EAD694D135087B500CAEB44 /* Connect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connect.h; sourceTree = "<group>"; };
+		9EAD694E135087B500CAEB44 /* Connect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connect.m; sourceTree = "<group>"; };
+		9EAD695013508FCB00CAEB44 /* Connect.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Connect.xib; sourceTree = "<group>"; };
+		9EB1B5E4132BD22B00B82007 /* WinGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WinGame.h; path = DarX.xcodeproj/WinGame.h; sourceTree = "<group>"; };
+		9EB1B5E5132BD22B00B82007 /* WinGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WinGame.m; path = DarX.xcodeproj/WinGame.m; sourceTree = "<group>"; };
+		9EB1B5E7132BD38100B82007 /* WinGame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinGame.xib; sourceTree = "<group>"; };
+		9EB27C06148E734100AFA612 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		9EB27C07148E734100AFA612 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		9EB27C09148E735D00AFA612 /* TCPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPServer.h; sourceTree = "<group>"; };
+		9EB27C0A148E735D00AFA612 /* TCPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPServer.m; sourceTree = "<group>"; };
+		9EB6CB64135CC292007134EC /* ConnErr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnErr.h; sourceTree = "<group>"; };
+		9EB6CB65135CC292007134EC /* ConnErr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnErr.m; sourceTree = "<group>"; };
+		9EB6CB67135CC2DD007134EC /* ConnErr.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnErr.xib; sourceTree = "<group>"; };
+		9EC5D655134FB868001A9D41 /* Nx012.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nx012.h; sourceTree = "<group>"; };
+		9EC5D656134FB868001A9D41 /* Nx012.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nx012.m; sourceTree = "<group>"; };
+		9EC5D657134FB868001A9D41 /* Nx012.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Nx012.xib; sourceTree = "<group>"; };
+		9EC837191334FEFC0092C273 /* CPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPlayer.h; sourceTree = "<group>"; };
+		9EC8371A1334FEFC0092C273 /* CPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPlayer.m; sourceTree = "<group>"; };
+		9ECB9300132B823C0051EE46 /* Cricket2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cricket2.h; sourceTree = "<group>"; };
+		9ECB9301132B823C0051EE46 /* Cricket2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cricket2.m; sourceTree = "<group>"; };
+		9ED1EF1C132D26EA00699F05 /* CheckOutCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckOutCalc.h; sourceTree = "<group>"; };
+		9ED1EF1D132D26EA00699F05 /* CheckOutCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckOutCalc.m; sourceTree = "<group>"; };
+		9EDFD8381347B49200D9CC5B /* DarX_DataModel 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DarX_DataModel 3.xcdatamodel"; sourceTree = "<group>"; };
+		9EDFD83A1347B86300D9CC5B /* Shootout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shootout.h; sourceTree = "<group>"; };
+		9EDFD83B1347B86300D9CC5B /* Shootout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shootout.m; sourceTree = "<group>"; };
+		9EDFD83D1347B8CD00D9CC5B /* Shootout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Shootout.xib; sourceTree = "<group>"; };
+		9EE02D3E1346536B001E2A81 /* DarX_DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DarX_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		9EE02D401346539E001E2A81 /* DarX_DataModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DarX_DataModel 2.xcdatamodel"; sourceTree = "<group>"; };
+		9EE058AE1353921D0061D1F5 /* ServerDisconnect.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServerDisconnect.xib; sourceTree = "<group>"; };
+		9EE058B0135395320061D1F5 /* ServerDisconnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerDisconnect.h; sourceTree = "<group>"; };
+		9EE058B1135395320061D1F5 /* ServerDisconnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerDisconnect.m; sourceTree = "<group>"; };
+		9EE2A63F13226442003F9549 /* x012.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x012.h; sourceTree = "<group>"; };
+		9EE2A64013226442003F9549 /* x012.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x012.m; sourceTree = "<group>"; };
+		9EFC81381358E1DF00CC61F1 /* Busy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Busy.h; sourceTree = "<group>"; };
+		9EFC81391358E1DF00CC61F1 /* Busy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Busy.m; sourceTree = "<group>"; };
+		9EFC813D1358E23E00CC61F1 /* Busy.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Busy.xib; path = DarX.xcodeproj/Busy.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				9E5D5A831264EDE000FBFD33 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9E11C3581348CCEC00A79877 /* Network */,
+				9EDFD8391347B84A00D9CC5B /* Shootout */,
+				9EA157831334FD9E008D4F58 /* x01 */,
+				9E7ADB1F1264FB140072C533 /* PreferenceController.h */,
+				9E7ADB201264FB140072C533 /* PreferenceController.m */,
+				9E0BC90D13217AC8006C6A26 /* Preferences.xib */,
+				9E890E551324258E00DA24F9 /* Global.h */,
+				9E890E561324258E00DA24F9 /* Global.m */,
+				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
+				9EA157841334FDA8008D4F58 /* Cricket */,
+				9EC837181334FEEB0092C273 /* Player */,
+				9EA157851334FDB5008D4F58 /* WinPanels */,
+				77C8280B06725ACE000B614F /* DarX_AppDelegate.h */,
+				77C8280C06725ACE000B614F /* DarX_AppDelegate.m */,
+				9E0BC9FB13224F18006C6A26 /* ManagingViewController.h */,
+				9E0BC9FC13224F18006C6A26 /* ManagingViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D5A821264EDE000FBFD33 /* Sparkle.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* DarX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DarX */ = {
+			isa = PBXGroup;
+			children = (
+				9E7B34C5132EC3B100C3468C /* todo.txt */,
+				7756732906782D8800D1FEB8 /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = DarX;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* DarX_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E5B8C73133148990050BF44 /* Help */,
+				9EA4448612609F4600E6DB39 /* dart.icns */,
+				9E7ADB031264F3DC0072C533 /* dsa_pub.pem */,
+				8D1107310486CEB800E47090 /* DarX-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				9E7ADB161264F6930072C533 /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9EE02D3D1346536B001E2A81 /* DarX_DataModel.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9E11C3581348CCEC00A79877 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9EC5D655134FB868001A9D41 /* Nx012.h */,
+				9EC5D656134FB868001A9D41 /* Nx012.m */,
+				9EC5D657134FB868001A9D41 /* Nx012.xib */,
+				9EFC81381358E1DF00CC61F1 /* Busy.h */,
+				9EFC81391358E1DF00CC61F1 /* Busy.m */,
+				9EFC813D1358E23E00CC61F1 /* Busy.xib */,
+				9E11C3591348CD2100A79877 /* Network.h */,
+				9E11C35A1348CD2100A79877 /* Network.m */,
+				9EB6CB64135CC292007134EC /* ConnErr.h */,
+				9EB6CB65135CC292007134EC /* ConnErr.m */,
+				9EB6CB67135CC2DD007134EC /* ConnErr.xib */,
+				9EAD694D135087B500CAEB44 /* Connect.h */,
+				9EAD694E135087B500CAEB44 /* Connect.m */,
+				9EAD695013508FCB00CAEB44 /* Connect.xib */,
+				9EB27C06148E734100AFA612 /* Server.h */,
+				9EB27C07148E734100AFA612 /* Server.m */,
+				9E1D652813576F3900F4D466 /* ServerClientDecide.h */,
+				9E1D652913576F3A00F4D466 /* ServerClientDecide.m */,
+				9E1D652B13576F6700F4D466 /* ServerClientDecide.xib */,
+				9EE058B0135395320061D1F5 /* ServerDisconnect.h */,
+				9EE058B1135395320061D1F5 /* ServerDisconnect.m */,
+				9EE058AE1353921D0061D1F5 /* ServerDisconnect.xib */,
+				9E38AAC11353807700FC904F /* SetGame.h */,
+				9E38AAC21353807700FC904F /* SetGame.m */,
+				9E38AAC4135381E000FC904F /* SetGame.xib */,
+				9EB27C09148E735D00AFA612 /* TCPServer.h */,
+				9EB27C0A148E735D00AFA612 /* TCPServer.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		9EA157831334FD9E008D4F58 /* x01 */ = {
+			isa = PBXGroup;
+			children = (
+				9E39081F1262242C00407652 /* Stats.h */,
+				9E3908201262242C00407652 /* Stats.m */,
+				9EA4445D12609DD900E6DB39 /* CheckOut.h */,
+				9EA4445E12609DD900E6DB39 /* CheckOut.m */,
+				9ED1EF1C132D26EA00699F05 /* CheckOutCalc.h */,
+				9ED1EF1D132D26EA00699F05 /* CheckOutCalc.m */,
+				9E028C15132D27B400E53560 /* CheckOutCalc.xib */,
+				9EA4445512609DD900E6DB39 /* x011.h */,
+				9EA4445612609DD900E6DB39 /* x011.m */,
+				9E0BCA081322511B006C6A26 /* x011.xib */,
+				9EE2A63F13226442003F9549 /* x012.h */,
+				9EE2A64013226442003F9549 /* x012.m */,
+				9E04223813228F4500CD033C /* x012.xib */,
+				9E98DBB614277F5D00D54966 /* x01vsme.h */,
+				9E98DBB714277F5D00D54966 /* x01vsme.m */,
+				9E98DBB91427808600D54966 /* x01vsme.xib */,
+			);
+			name = x01;
+			sourceTree = "<group>";
+		};
+		9EA157841334FDA8008D4F58 /* Cricket */ = {
+			isa = PBXGroup;
+			children = (
+				9E30A2281326BF68009FE244 /* Cricket1.h */,
+				9E30A2291326BF68009FE244 /* Cricket1.m */,
+				9E30A2261326B600009FE244 /* cricket1.xib */,
+				9ECB9300132B823C0051EE46 /* Cricket2.h */,
+				9ECB9301132B823C0051EE46 /* Cricket2.m */,
+				9E312CC4132A84FD0064B93E /* cricket2.xib */,
+			);
+			name = Cricket;
+			sourceTree = "<group>";
+		};
+		9EA157851334FDB5008D4F58 /* WinPanels */ = {
+			isa = PBXGroup;
+			children = (
+				9E19D96413787AD6008475D5 /* NetWinPane.h */,
+				9E19D96513787AD6008475D5 /* NetWinPane.m */,
+				9E19D96613787AD6008475D5 /* NetWinPane.xib */,
+				9EB1B5E4132BD22B00B82007 /* WinGame.h */,
+				9EB1B5E5132BD22B00B82007 /* WinGame.m */,
+				9EB1B5E7132BD38100B82007 /* WinGame.xib */,
+				9EA4445B12609DD900E6DB39 /* WinPane.h */,
+				9EA4445C12609DD900E6DB39 /* WinPane.m */,
+				9EA444CE1260A30100E6DB39 /* WinPane.xib */,
+				9EA65A4213282097001DB254 /* WinCricket.h */,
+				9EA65A4313282097001DB254 /* WinCricket.m */,
+				9EA65A471328268C001DB254 /* WinCricket.xib */,
+			);
+			name = WinPanels;
+			sourceTree = "<group>";
+		};
+		9EC837181334FEEB0092C273 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				9EA157861334FE05008D4F58 /* XPlayer.h */,
+				9EA157871334FE05008D4F58 /* XPlayer.m */,
+				9EA4445912609DD900E6DB39 /* Player.h */,
+				9EA4445A12609DD900E6DB39 /* Player.m */,
+				9EC837191334FEFC0092C273 /* CPlayer.h */,
+				9EC8371A1334FEFC0092C273 /* CPlayer.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		9EDFD8391347B84A00D9CC5B /* Shootout */ = {
+			isa = PBXGroup;
+			children = (
+				9EDFD83A1347B86300D9CC5B /* Shootout.h */,
+				9EDFD83B1347B86300D9CC5B /* Shootout.m */,
+				9EDFD83D1347B8CD00D9CC5B /* Shootout.xib */,
+				9E0E76441348678D005BEA4D /* ShootStats.h */,
+				9E0E76451348678D005BEA4D /* ShootStats.m */,
+			);
+			name = Shootout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* DarX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "DarX" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				9E7ADB021264F31C0072C533 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarX;
+			productInstallPath = "$(HOME)/Applications";
+			productName = DarX;
+			productReference = 8D1107320486CEB800E47090 /* DarX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "DarX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DarX */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* DarX */,
+				9EB159D5126643E500525AA9 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBA7A7A13787C6800A45E72 /* NetWinPane.xib in Resources */,
+				9EB3C64A136C0DE000D498E5 /* Nx012.xib in Resources */,
+				9EB3C64B136C0DE000D498E5 /* Busy.xib in Resources */,
+				9EB3C64C136C0DE000D498E5 /* ConnErr.xib in Resources */,
+				9EB3C64D136C0DE000D498E5 /* Connect.xib in Resources */,
+				9EB3C64E136C0DE000D498E5 /* ServerClientDecide.xib in Resources */,
+				9EB3C64F136C0DE000D498E5 /* ServerDisconnect.xib in Resources */,
+				9EB3C650136C0DE000D498E5 /* SetGame.xib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
+				9EA4448712609F4600E6DB39 /* dart.icns in Resources */,
+				9EA444CF1260A30100E6DB39 /* WinPane.xib in Resources */,
+				9E7ADB041264F3DC0072C533 /* dsa_pub.pem in Resources */,
+				9E7ADB171264F6930072C533 /* Credits.rtf in Resources */,
+				9E0BC90E13217AC8006C6A26 /* Preferences.xib in Resources */,
+				9E0BCA091322511B006C6A26 /* x011.xib in Resources */,
+				9E04223913228F4500CD033C /* x012.xib in Resources */,
+				9E30A2271326B600009FE244 /* cricket1.xib in Resources */,
+				9EA65A481328268C001DB254 /* WinCricket.xib in Resources */,
+				9E312CC5132A84FD0064B93E /* cricket2.xib in Resources */,
+				9EB1B5E8132BD38100B82007 /* WinGame.xib in Resources */,
+				9E028C16132D27B400E53560 /* CheckOutCalc.xib in Resources */,
+				9E7B34C6132EC3B100C3468C /* todo.txt in Resources */,
+				9E5B8C74133148990050BF44 /* Help in Resources */,
+				9EDFD83E1347B8CD00D9CC5B /* Shootout.xib in Resources */,
+				9E98DBBA1427808600D54966 /* x01vsme.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EB159DB126643F000525AA9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -o errexit\n\n#[ $BUILD_STYLE = Release ] || { echo Distribution target requires \"'Release'\" build style; false; }\n\nVERSION=$(defaults read \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME.app/Contents/Info\" CFBundleVersion)\nDOWNLOAD_BASE_URL=\"http://stubbi.org/download.php?id=\"\nRELEASENOTES_URL=\"http://stubbi.org/new.html\"\n\nARCHIVE_FILENAME=\"$PROJECT_NAME-$VERSION.dmg\"\nDOWNLOAD_URL=\"$DOWNLOAD_BASE_URL/$ARCHIVE_FILENAME\"\nKEYCHAIN_PRIVKEY_NAME=\"Sparkle Private Key 1\"\n\nWD=$PWD\ncd \"$BUILT_PRODUCTS_DIR\"\nrm -f \"$PROJECT_NAME\"*.dmg\n#ditto -ck --keepParent \"$PROJECT_NAME.app\" \"$ARCHIVE_FILENAME\"\nhdiutil create -srcfolder \"$PROJECT_NAME.app\" \"$ARCHIVE_FILENAME\"\n\nSIZE=$(stat -f %z \"$ARCHIVE_FILENAME\")\nPUBDATE=$(LC_TIME=en_US date +\"%a, %d %b %G %T %z\")\nSIGNATURE=$(\n\topenssl dgst -sha1 -binary < \"$ARCHIVE_FILENAME\" \\\n\t| openssl dgst -dss1 -sign <(security find-generic-password -g -s \"$KEYCHAIN_PRIVKEY_NAME\" 2>&1 1>/dev/null | perl -pe '($_) = /\"(.+)\"/; s/\\\\012/\\n/g' | perl -MXML::LibXML -e 'print XML::LibXML->new()->parse_file(\"-\")->findvalue(q(//string[preceding-sibling::key[1] = \"NOTE\"]))') \\\n\t| openssl enc -base64\n)\n\n[ $SIGNATURE ] || { echo Unable to load signing private key with name \"'$KEYCHAIN_PRIVKEY_NAME'\" from keychain; false; }\n\ncat <<EOF\n\t\t<item>\n\t\t\t<title>Version $VERSION</title>\n\t\t\t<sparkle:releaseNotesLink>$RELEASENOTES_URL</sparkle:releaseNotesLink>\n\t\t\t<pubDate>$PUBDATE</pubDate>\n\t\t\t<enclosure\n\t\t\t\turl=\"$DOWNLOAD_URL\"\n\t\t\t\tsparkle:version=\"$VERSION\"\n\t\t\t\ttype=\"application/octet-stream\"\n\t\t\t\tlength=\"$SIZE\"\n\t\t\t\tsparkle:dsaSignature=\"$SIGNATURE\"\n\t\t\t/>\n\t\t</item>\nEOF ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBA7A7B13787C7700A45E72 /* NetWinPane.m in Sources */,
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* DarX_AppDelegate.m in Sources */,
+				9EA4445F12609DD900E6DB39 /* x011.m in Sources */,
+				9EA4446112609DD900E6DB39 /* Player.m in Sources */,
+				9EA4446212609DD900E6DB39 /* WinPane.m in Sources */,
+				9EA4446312609DD900E6DB39 /* CheckOut.m in Sources */,
+				9E3908211262242C00407652 /* Stats.m in Sources */,
+				9E7ADB211264FB140072C533 /* PreferenceController.m in Sources */,
+				9E0BC9FD13224F18006C6A26 /* ManagingViewController.m in Sources */,
+				9EE2A64113226442003F9549 /* x012.m in Sources */,
+				9E890E571324258E00DA24F9 /* Global.m in Sources */,
+				9E30A22A1326BF68009FE244 /* Cricket1.m in Sources */,
+				9EA65A4413282098001DB254 /* WinCricket.m in Sources */,
+				9ECB9302132B823C0051EE46 /* Cricket2.m in Sources */,
+				9EB1B5E6132BD22B00B82007 /* WinGame.m in Sources */,
+				9ED1EF1E132D26EA00699F05 /* CheckOutCalc.m in Sources */,
+				9EA157881334FE05008D4F58 /* XPlayer.m in Sources */,
+				9EC8371B1334FEFC0092C273 /* CPlayer.m in Sources */,
+				9EE02D3F1346536B001E2A81 /* DarX_DataModel.xcdatamodeld in Sources */,
+				9EDFD83C1347B86300D9CC5B /* Shootout.m in Sources */,
+				9E0E76461348678D005BEA4D /* ShootStats.m in Sources */,
+				9E11C35B1348CD2100A79877 /* Network.m in Sources */,
+				9EC5D658134FB868001A9D41 /* Nx012.m in Sources */,
+				9EAD694F135087B500CAEB44 /* Connect.m in Sources */,
+				9E38AAC31353807700FC904F /* SetGame.m in Sources */,
+				9EE058B2135395320061D1F5 /* ServerDisconnect.m in Sources */,
+				9E1D652A13576F3B00F4D466 /* ServerClientDecide.m in Sources */,
+				9EFC813A1358E1DF00CC61F1 /* Busy.m in Sources */,
+				9EB6CB66135CC292007134EC /* ConnErr.m in Sources */,
+				9E98DBB814277F5D00D54966 /* x01vsme.m in Sources */,
+				9EB27C08148E734100AFA612 /* Server.m in Sources */,
+				9EB27C0B148E735D00AFA612 /* TCPServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EB159D9126643EB00525AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* DarX */;
+			targetProxy = 9EB159D8126643EB00525AA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F7446970DB6B7EA00F9684A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7446980DB6B7EA00F9684A /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DarX_Prefix.pch;
+				INFOPLIST_FILE = "DarX-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = DarX;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DarX_Prefix.pch;
+				INFOPLIST_FILE = "DarX-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = DarX;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9EB159D6126643E500525AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = Deployment;
+			};
+			name = Debug;
+		};
+		9EB159D7126643E500525AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Deployment;
+				ZERO_LINK = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "DarX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "DarX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB159E01266440600525AA9 /* Build configuration list for PBXAggregateTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB159D6126643E500525AA9 /* Debug */,
+				9EB159D7126643E500525AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9EE02D3D1346536B001E2A81 /* DarX_DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9EDFD8381347B49200D9CC5B /* DarX_DataModel 3.xcdatamodel */,
+				9EE02D401346539E001E2A81 /* DarX_DataModel 2.xcdatamodel */,
+				9EE02D3E1346536B001E2A81 /* DarX_DataModel.xcdatamodel */,
+			);
+			currentVersion = 9EDFD8381347B49200D9CC5B /* DarX_DataModel 3.xcdatamodel */;
+			path = DarX_DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
